@@ -87,7 +87,7 @@ You can also `marshalString`.
 ## Jsonix Features
 
 * Runs in almost any modern browser
-* Runs in [Node.js](http://nodejs.org/), `package.json` can be found [here](./nodejs/scripts/package.json)
+* Runs in [Node.js](http://nodejs.org/)
 * Runs with CommonJS modules, AMD modules as well as vanilla (globals, without any module loader)
 * Bidirectional (XML -> JS as well as JS -> XML)
 * Implements *marshalling* (serializing the JavaScript object into XML)
@@ -112,10 +112,3 @@ You can also `marshalString`.
 
 * [Jsonix GitHub Project](https://github.com/highsource/jsonix)
 * [Jsonix Wiki](https://github.com/highsource/jsonix/wiki)
-
-## Credits
-
-![Logo WebStorm](images/logo_WebStorm.png)
-
-Jsonix is developed with [WebStorm](https://www.jetbrains.com/webstorm/), the smartest JavaScript IDE.  
-Many thanks to [JetBrains](https://www.jetbrains.com) for providing a free open-source license for Jsonix development.
