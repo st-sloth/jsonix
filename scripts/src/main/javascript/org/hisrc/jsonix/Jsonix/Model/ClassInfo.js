@@ -141,7 +141,10 @@ Jsonix.Model.ClassInfo = Jsonix
 											attributePropertyInfo, result,
 											attributeValue);
 								}
-							}
+                            } else if (attributeNameKey === '{http://www.w3.org/2001/XMLSchema-instance}type') {
+                                // todo proper xsi:type condition
+                                result.XSI_TYPE = input.getAttributeValue(index);
+                            }
 						}
 					}
 
